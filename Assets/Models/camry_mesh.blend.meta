@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: ba2ce657d763e44b6856e91e966f7353
+timeCreated: 1493529069
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Body
+    100002: //RootNode
+    100004: Cowl
+    100006: Grille
+    100008: Headlight
+    100010: Inner
+    100012: Mirror
+    100014: Pillar
+    100016: Taillamp
+    100018: Tire
+    100020: Wheel
+    100022: Window_Front
+    100024: Window_Rear
+    100026: Window_Side
+    100028: Wiper
+    400000: Body
+    400002: //RootNode
+    400004: Cowl
+    400006: Grille
+    400008: Headlight
+    400010: Inner
+    400012: Mirror
+    400014: Pillar
+    400016: Taillamp
+    400018: Tire
+    400020: Wheel
+    400022: Window_Front
+    400024: Window_Rear
+    400026: Window_Side
+    400028: Wiper
+    2300000: Body
+    2300002: Cowl
+    2300004: Grille
+    2300006: Headlight
+    2300008: Inner
+    2300010: Mirror
+    2300012: Pillar
+    2300014: Taillamp
+    2300016: Tire
+    2300018: Wheel
+    2300020: Window_Front
+    2300022: Window_Rear
+    2300024: Window_Side
+    2300026: Wiper
+    3300000: Body
+    3300002: Cowl
+    3300004: Grille
+    3300006: Headlight
+    3300008: Inner
+    3300010: Mirror
+    3300012: Pillar
+    3300014: Taillamp
+    3300016: Tire
+    3300018: Wheel
+    3300020: Window_Front
+    3300022: Window_Rear
+    3300024: Window_Side
+    3300026: Wiper
+    4300000: Mirror
+    4300002: Headlight
+    4300004: Cowl
+    4300006: Tire
+    4300008: Wiper
+    4300010: Pillar
+    4300012: Inner
+    4300014: Taillamp
+    4300016: Window_Rear
+    4300018: Window_Front
+    4300020: Window_Side
+    4300022: Grille
+    4300024: Body
+    4300026: Wheel
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

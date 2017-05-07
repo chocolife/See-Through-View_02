@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 027aa0a38fb824db59229bdbea6faa99
+timeCreated: 1494051361
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Backseat
+    100002: Body
+    100004: Camera
+    100006: //RootNode
+    100008: Cowl
+    100010: Dashboard Main
+    100012: Dashboard Main.001
+    100014: Dashboard Main.002
+    100016: Grille
+    100018: Inner
+    100020: Knobs
+    100022: Lamp
+    100024: Pillar
+    100026: Seat Driver
+    100028: Seat Passenger
+    100030: Steering Wheel
+    100032: Taillamp
+    100034: Tire
+    100036: Upholstery
+    100038: Wheel
+    100040: Window Front
+    100042: Window Rear
+    100044: Window Side
+    100046: Wiper
+    100048: "\u0420\u0443\u0444\u0432\u0434\u0448\u043F\u0440\u0435"
+    400000: Backseat
+    400002: Body
+    400004: Camera
+    400006: //RootNode
+    400008: Cowl
+    400010: Dashboard Main
+    400012: Dashboard Main.001
+    400014: Dashboard Main.002
+    400016: Grille
+    400018: Inner
+    400020: Knobs
+    400022: Lamp
+    400024: Pillar
+    400026: Seat Driver
+    400028: Seat Passenger
+    400030: Steering Wheel
+    400032: Taillamp
+    400034: Tire
+    400036: Upholstery
+    400038: Wheel
+    400040: Window Front
+    400042: Window Rear
+    400044: Window Side
+    400046: Wiper
+    400048: "\u0420\u0443\u0444\u0432\u0434\u0448\u043F\u0440\u0435"
+    2300000: Backseat
+    2300002: Body
+    2300004: Cowl
+    2300006: Dashboard Main
+    2300008: Dashboard Main.001
+    2300010: Dashboard Main.002
+    2300012: Grille
+    2300014: Inner
+    2300016: Knobs
+    2300018: Pillar
+    2300020: Seat Driver
+    2300022: Seat Passenger
+    2300024: Steering Wheel
+    2300026: Taillamp
+    2300028: Tire
+    2300030: Upholstery
+    2300032: Wheel
+    2300034: Window Front
+    2300036: Window Rear
+    2300038: Window Side
+    2300040: Wiper
+    2300042: "\u0420\u0443\u0444\u0432\u0434\u0448\u043F\u0440\u0435"
+    3300000: Backseat
+    3300002: Body
+    3300004: Cowl
+    3300006: Dashboard Main
+    3300008: Dashboard Main.001
+    3300010: Dashboard Main.002
+    3300012: Grille
+    3300014: Inner
+    3300016: Knobs
+    3300018: Pillar
+    3300020: Seat Driver
+    3300022: Seat Passenger
+    3300024: Steering Wheel
+    3300026: Taillamp
+    3300028: Tire
+    3300030: Upholstery
+    3300032: Wheel
+    3300034: Window Front
+    3300036: Window Rear
+    3300038: Window Side
+    3300040: Wiper
+    3300042: "\u0420\u0443\u0444\u0432\u0434\u0448\u043F\u0440\u0435"
+    4300000: "\u0420\u0443\u0444\u0432\u0434\u0448\u043F\u0440\u0435"
+    4300002: Cowl
+    4300004: Tire
+    4300006: Wiper
+    4300008: Upholstery
+    4300010: Pillar
+    4300012: Inner
+    4300014: Dashboard Main.002
+    4300016: Dashboard Main.001
+    4300018: Taillamp
+    4300020: Window Rear
+    4300022: Window Front
+    4300024: Window Side
+    4300026: Grille
+    4300028: Body
+    4300030: Backseat
+    4300032: Dashboard Main
+    4300034: Knobs
+    4300036: Seat Driver
+    4300038: Seat Passenger
+    4300040: Steering Wheel
+    4300042: Wheel
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
