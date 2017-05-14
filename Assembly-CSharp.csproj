@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\FadeController.cs" />
+     <Compile Include="Assets\ParkPositionSelector.cs" />
      <Compile Include="Assets\Script\CameraController.cs" />
      <Compile Include="Assets\Script\CameraGizmoDrawer.cs" />
      <Compile Include="Assets\Script\ChangeCamera.cs" />

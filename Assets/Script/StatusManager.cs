@@ -9,7 +9,10 @@ public class StatusManager : MonoBehaviour
 
 	public bool interior_visible = false;
 
+	public bool park_status = false;
+
 	public string warnStr;
+
 
 	//public int current_view_id;
 
