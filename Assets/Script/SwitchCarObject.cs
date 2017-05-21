@@ -47,7 +47,7 @@ public class SwitchCarObject : MonoBehaviour
 				foreach (Transform car_child in carInterior.transform) 
 				{
 					car_child.GetComponent<Renderer> ().enabled = true;
-					iTween.FadeTo(car_child.gameObject, iTween.Hash("alpha", 0.05f, "time", 1.0f));
+					iTween.FadeTo(car_child.gameObject, iTween.Hash("alpha", 0.6f, "time", 2.0f));
 				}
 				
 
@@ -56,7 +56,7 @@ public class SwitchCarObject : MonoBehaviour
 					//car_child.GetComponent<Renderer> ().enabled = false;
 					if (car_child.name != "Window") 
 					{
-						iTween.FadeTo(car_child.gameObject, iTween.Hash("alpha", 0, "time", 1.0f));
+						iTween.FadeTo(car_child.gameObject, iTween.Hash("alpha", 0, "time", 0.5f));
 					}
 				}
 
@@ -70,12 +70,12 @@ public class SwitchCarObject : MonoBehaviour
 				foreach (Transform car_child in carInterior.transform)
 				{
 					car_child.GetComponent<Renderer> ().enabled = false;
-					//iTween.FadeTo(car_child.gameObject, iTween.Hash("alpha", 0, "time", 0));
+					iTween.FadeTo(car_child.gameObject, iTween.Hash("alpha", 0, "time", 0));
 				}
 				
 				foreach (Transform car_child in carExterior.transform)
 				{
-					//car_child.GetComponent<Renderer> ().enabled = true;
+					car_child.GetComponent<Renderer> ().enabled = true;
 					if (car_child.name != "Window") 
 					{
 						iTween.FadeTo(car_child.gameObject, iTween.Hash("alpha", 1, "time", 0));
