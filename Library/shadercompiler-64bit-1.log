@@ -1,23 +1,7 @@
 Base path: /Applications/Unity/Unity.app/Contents
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-2029413120
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-2110935808
 Cmd: getPlatforms
 Cmd: compileSnippet
-  api=0 type=0 insize=751 outsize=2382 kw=SHADOWS_DEPTH _ALPHABLEND_ON ok=1
+  api=0 type=0 insize=9591 outsize=6594 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=751 outsize=6 kw=SHADOWS_DEPTH _ALPHABLEND_ON ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=751 outsize=976 kw=SHADOWS_CUBE _ALPHABLEND_ON ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=751 outsize=6 kw=SHADOWS_CUBE _ALPHABLEND_ON ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=977 outsize=9814 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHABLEND_ON ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=977 outsize=6 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF _ALPHABLEND_ON ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=934 outsize=5927 kw=POINT SHADOWS_OFF _ALPHABLEND_ON ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=934 outsize=6 kw=POINT SHADOWS_OFF _ALPHABLEND_ON ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=934 outsize=5573 kw=DIRECTIONAL SHADOWS_OFF _ALPHABLEND_ON ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=934 outsize=6 kw=DIRECTIONAL SHADOWS_OFF _ALPHABLEND_ON ok=1
+  api=0 type=1 insize=9591 outsize=6 kw= ok=1

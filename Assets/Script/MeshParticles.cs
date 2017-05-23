@@ -4,6 +4,7 @@ using System.Collections;
 public class MeshParticles : MonoBehaviour {
 
 	public GameObject TargetPrimitive;
+    public Camera cam;
 	//private Color col = new Color(0, 0.3f, 0.8f);
 	
 	[Range(0.0f, 1.0f)]
@@ -27,6 +28,23 @@ public class MeshParticles : MonoBehaviour {
 
 
 	void Update () {
+
+        
+        //if (Input.GetMouseButtonDown(0)) 
+        //{
+            // ここでの注意点は座標の引数にVector2を渡すのではなく、Vector3を渡すことである。
+            // Vector3でマウスがクリックした位置座標を取得する
+            Vector3 clickPosition = Input.mousePosition;
+            // Z軸修正
+            clickPosition.z = 5f;
+            // オブジェクト生成 : オブジェクト(GameObject), 位置(Vector3), 角度(Quaternion)
+            // ScreenToWorldPoint(位置(Vector3))：スクリーン座標をワールド座標に変換する
+            //Instantiate(Prefab, Camera.main.ScreenToWorldPoint(clickPosition), Prefab.transform.rotation);
+            Vector3 clicked_world_point = cam.ScreenToWorldPoint(clickPosition);
+            horizon_center = clicked_world_point.x / 10 ;
+        //}
+        
+
 
 		meshVertices = TargetPrimitive.GetComponent<MeshFilter>().sharedMesh.vertices;
 
@@ -74,8 +92,8 @@ public class MeshParticles : MonoBehaviour {
                 float target_center = (target_min + target_max) / 2;    
                 float distance = Mathf.Abs(horizon_center - particles[i].position.x);
 
-				particles[i].color = new Color(1.0f - (distance / target_center), 0.4f, 0.85f, 1.0f);
-                //Debug.Log(distance / center_pos);
+				particles[i].color = new Color(1.0f - (distance / target_center), 0.5f - (distance / target_center)/4, 1.0f, 1.0f);
+
 			}
             else
             {
@@ -85,12 +103,14 @@ public class MeshParticles : MonoBehaviour {
 			particles[i].size = 0.025f;
 
 			// ライフタイムを指定しないと表示されない（すぐ死んで消えてる？）
-			particles[i].lifetime = 1f;
-			particles[i].startLifetime = 1f;
+			particles[i].lifetime = 0.1f;
+			particles[i].startLifetime = 0.1f;
 		}
 		//Debug.Log (particles[101].position);
 		
 		GetComponent<ParticleSystem> ().SetParticles (particles, particles.Length);
 	}
+
+
 
 }	
