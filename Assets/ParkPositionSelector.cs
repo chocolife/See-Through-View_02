@@ -36,7 +36,7 @@ public class ParkPositionSelector : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (status_mgr.current_camera.name == "Top Camera" && status_mgr.park_status == true) {
+		if (status_mgr.current_camera.name == "Arround Camera" && status_mgr.park_status == true) {
 			park_panel.SetActive(true);
 		} else {
 			park_panel.SetActive(false);

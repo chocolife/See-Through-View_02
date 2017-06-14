@@ -34,7 +34,7 @@ public class UiController : MonoBehaviour
 	{
 
 		main_camera = GameObject.Find ("Main Camera");
-		top_camera = GameObject.Find ("CamParent/Top Camera"); 
+		top_camera = GameObject.Find ("CamParent/Arround Camera"); 
 		transfar_camera = GameObject.Find ("Transfar Camera");
 
 		transfar_camera.GetComponent<Camera>().enabled = true;

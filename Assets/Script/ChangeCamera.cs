@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
@@ -17,7 +17,7 @@ public class ChangeCamera : MonoBehaviour
 
 	private Animator rotate_anim;
 	private Animator transfar_anim;
-	
+			
 	public GameObject fade_panel;
 	
 	// Use this for initialization

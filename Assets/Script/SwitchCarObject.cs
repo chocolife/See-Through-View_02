@@ -28,7 +28,7 @@ public class SwitchCarObject : MonoBehaviour
 
 
 		main_camera = GameObject.Find ("Main Camera").GetComponent<Camera>();
-		top_camera = GameObject.Find ("CamParent/Top Camera").GetComponent<Camera>();
+		top_camera = GameObject.Find ("CamParent/Arround Camera").GetComponent<Camera>();
 	
 		statusManager.interior_visible = false;
 	}

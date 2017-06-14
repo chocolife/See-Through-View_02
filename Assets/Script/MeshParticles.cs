@@ -102,7 +102,7 @@ public class MeshParticles : MonoBehaviour {
             
 			particles[i].size = 0.025f;
 
-			// ライフタイムを指定しないと表示されない（すぐ死んで消えてる？）
+			// Require Set Lifetime
 			particles[i].lifetime = 0.1f;
 			particles[i].startLifetime = 0.1f;
 		}
